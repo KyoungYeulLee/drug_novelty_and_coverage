@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 
 def gather_results(config: pd.DataFrame) -> dict:
-    """ 각 모델 별 결과를 dict 에 저장
+    """ save each model result to the dictionary
     """
 
     models = pd.read_csv(config)
@@ -26,11 +26,11 @@ def gather_results(config: pd.DataFrame) -> dict:
 
 
 def plot_results(div_range: np.array, results: dict, save_path: str) -> None:
-    """ 여러 모델의 결과를 받아 novelty, coverage, f1_score, NC_curve plot 에 동시에 visualization.
+    """ visualize novelty, coverage, f1_score, NC_curve plot
     
     """
 
-    # 단일 metric figs
+    # single metric figs
     metric_names = ['novelty', 'coverage', 'f1_score']
 
     for metric in metric_names:
