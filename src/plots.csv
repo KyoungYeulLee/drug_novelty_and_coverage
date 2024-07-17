@@ -1,0 +1,4 @@
+model,path
+experiment_1,/dir/model_1/NC_div_results.csv
+experiment_2,/dir/model_2/NC_div_results.csv
+experiment_3,/dir/model_3/NC_div_results.csv

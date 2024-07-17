@@ -1,0 +1,8 @@
+pyyaml
+tqdm
+pandas
+pandarallel
+numpy
+matplotlib
+rdkit
+molsets
