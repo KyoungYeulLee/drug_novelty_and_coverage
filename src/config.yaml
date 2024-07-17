@@ -1,0 +1,9 @@
+reference_set:
+  druglike_set: "reference_set/ChEMBL.PositiveSet.standd.allowedAtomTypes.csv"
+  ligand_set: "reference_set/ZINC.standd.random50K.csv"
+generated_set: "data/MOSES/combinatorial/combinatorial_1--valid.csv"
+feature_names: 
+  two_way_feature: ['MW', 'ALOGP', 'HBA', 'PSA', 'ROTB']
+  one_way_feature: ['HBD', 'AROM', 'ALERTS', 'SA']
+druglike_criteria: 0.1
+div_interval: 0.05

@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/novelty_coverage.egg-info/PKG-INFO
+src/novelty_coverage.egg-info/SOURCES.txt
+src/novelty_coverage.egg-info/dependency_links.txt
+src/novelty_coverage.egg-info/requires.txt
+src/novelty_coverage.egg-info/top_level.txt
